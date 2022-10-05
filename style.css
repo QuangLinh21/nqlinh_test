@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color:aliceblue;
+}
+.content{
+    display: flex;
+    width: 100%;
+    
+}
+.content .left{
+    background: #111;
+    width: 10%;
+    padding: 15px 25px;
+
+}
+.content .left ul{
+    margin: 0;
+}
+.content .left ul li{
+    list-style-type: none;
+    margin-bottom:30px ;
+} 
+.content .left ul li a:hover{
+    text-decoration: underline;
+}
+.content .right{
+    width: 90%;  
+    padding: 15px 90px; 
+}
+.content .right .logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.content .right .logo img{
+    width: 300px;
+    height: 130px;
+}
+.content .right .intro{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+}
+content .right .intro .intro-main{
+    padding: 0 100px;
+}
+.content .right .intro .intro-main h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.content .right .intro .intro-main p{
+    line-height: 20px;
+    text-align:center;
+}
+.right .list-item{
+    display: flex;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.right .list-item .item h3{
+    text-align: center;
+    margin: 10px 0;
+    
+}
+.right .list-item .item .content-item img{
+    width: 70px;
+    height: 100px;
+}
